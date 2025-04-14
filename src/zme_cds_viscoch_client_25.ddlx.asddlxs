@@ -1,0 +1,36 @@
+@Metadata.layer: #CORE
+annotate entity ZCDS_DD_VISTACLIENTE_ZCOCHE_25
+    with 
+{
+
+  @UI.selectionField: [{ position: 10 }]
+  @UI.lineItem: [{ position: 10, label: 'Id cliente' }]
+  @UI.identification: [{ position: 10 }]
+  Idclient;
+  
+  @UI.selectionField: [{ position: 20 }]
+  @UI.lineItem: [{ position: 20, label: 'Coche' }]
+  @UI.identification: [{ position: 20 }]
+  Idcoche;
+  
+  @UI.selectionField: [{ position: 21 }]
+  @UI.lineItem: [{ position: 21, label: 'Marca' }]
+  @UI.identification: [{ position: 21}]
+  Marca;
+  
+  @UI.selectionField: [{ position: 22 }]
+  @UI.lineItem: [{ position: 22, label: 'Modelo' }]
+  @UI.identification: [{ position: 22 }]
+  Modelo;
+  
+    @UI.selectionField: [{ position: 30 }]
+  @UI.lineItem: [{ position: 30, label: 'Nombre' }]
+  @UI.identification: [{ position: 30 }]
+  NombreCliente;
+  
+  @UI.selectionField: [{ position: 40 }]
+  @UI.lineItem: [{ position: 40, label: 'Batidor' }]
+  @UI.identification: [{ position: 40 }]
+  Bastidor;
+  
+}
